@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: bionic
+Date: Tue, 18 Dec 2018 08:54:54 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ 6b75733fcca6dff9c5425a257008edf2 6042 main/binary-armhf/Packages
+ 67d24f3e6cf6287f485da2b49425083f 1982 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ bef3b7ba9c6d6e10b2fa1a47525e9804 11692 main/binary-arm64/Packages
+ 8f7cb838b22d4444dc5e8429fb72edc2 3098 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ 88de8c42596836ba33525e617fbf9129a9fbfe04 6042 main/binary-armhf/Packages
+ de6a352ca15be8213514534de3ad5ca752d36102 1982 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ ebe6349a00821107d60018793c413685f27ce537 11692 main/binary-arm64/Packages
+ 648324eae29fdbea295e365f46b33bb767847ec1 3098 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ 3473143885211295d7da124182f9ae3041a36dfa6e12122877dc398af032e02e 6042 main/binary-armhf/Packages
+ 99cb29d221d5d8d9bf8ce33450a1c4bd85dd2122300ecb095ba0e7c4e05dc9ba 1982 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ 8c866c7502f1a0b6ced2ffc3262a29e3fffe1e44d124f8341cdb9b97aab4d2ad 11692 main/binary-arm64/Packages
+ 51a99f7e275cd0c65103a45b683cb00e24337aeeacd460cd0acca0efd15eced6 3098 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAlwYtd4ACgkQV2EoiytS
+zJBfYQwAoAGWQMIIM6ylN3vJtJFa4P+goxfSVg5I5zn1Sfvvkm3EPNh0OVqCK6bV
+c4o6GVjttMWmnocfxfOH+PhzRxygy6rqVQ/r8TC5wxHLBSquIUOOjGDW6DottGAG
+1c68zpLcPzFGXJMWXsC5CccDeoC+r1lT2XYaNI1XgSQ/cklc3j9O9Y4nh7+hq/7v
+64ntLY+4vAlPYQFStupBmopyXdhHW5paafdgXmz7xiQEqyGyHJNXeodcCUNVIShg
+k2osONGWhL7GKDPWxBB72q38T191R4NtZl+eq+6WX+yEeSb8KCXXn/Iav/KUPrfV
+WoYjf/O0Z4WmEuGbu7YPwecZfE3mGz7h2e50/fGihnHN9BFKR8F6pTKNl5pdy9+4
+stoZxYVwtcAoTOmLzSfQOPSkvr20maVRJQ4m7lkefFFwDDN19Z9DreMYy4uv3vWC
+ahRDIc6h3tOD+p3OeM4jAZ1aVLu1Un3RQ+GqugfNS+IlJljrslqG3xOIzq0VfZHr
+Vg+KcYG+
+=njYT
+-----END PGP SIGNATURE-----

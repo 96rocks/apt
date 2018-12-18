@@ -1,0 +1,342 @@
+Package: ap6255-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/ap6255-firmware/ap6255-firmware_0.1_all.deb
+Size: 321632
+SHA256: 8a8517f6ab02c66ea9ae86028c4f9a68c82059d1460843f09d8bc5b3ef8c548a
+SHA1: 2604951a0877d04eee074eea83116092d982aa81
+MD5sum: c9824442a7eae8879283dc6c1adcfe2c
+Description: General chip ap6255 firmware.
+
+Package: ap6256-firmware
+Version: 0.3
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/ap6256-firmware/ap6256-firmware_0.3_all.deb
+Size: 278744
+SHA256: 55d0b1ebb2703fe97ebbf5a49c551a747fedd11270e9accfcc6c0307b694f5ce
+SHA1: c922156b40a4df71455d7bb2685a0d688cf7b73c
+MD5sum: bf6660eea623a5505463b640f9ee5fdc
+Description: General chip ap6256 firmware.
+
+Package: brcm-patchram-plus1-64
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1-64/brcm-patchram-plus1-64_0.1_arm64.deb
+Size: 5924
+SHA256: 1eb1afe52996cfc21a962a4e32e64c6bc385ba66594b03ed72bd29d21593fb08
+SHA1: bf371205d0f395e5f95633c4a66733ced9c4ee77
+MD5sum: abdefdc05ffdb66ac2f36db24d20643e
+Description: Broadcom bluetooth patching tool
+
+Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-firmware-image-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 185968
+SHA256: 536921090bcbb650c98e6152a7342982fd4968d15544e85d90dbcfad7248280a
+SHA1: 8886911b8ecd229846bb74baed17fdcb01d99a6d
+MD5sum: 7ad949b8ba76556a9ccd0e0686a14671
+Description: Linux kernel firmware, version 4.4.154-59-rockchip-g5e70f14
+ This package contains firmware from the Linux kernel, version 4.4.154-59-rockchip-g5e70f14.
+
+Package: linux-headers-4.4.154-10-g209c242-dirty
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 46644
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-headers-4.4.154-10-g209c242-dirty_4.4.154-10_all.deb
+Size: 7118724
+SHA256: b14a62c971c99a32f51f91eed36021db4b115181e400fe04b61e73a4014defd7
+SHA1: e859db44c7d1965361fda8745dc508ead546e1f6
+MD5sum: 50ce608f9debb3b9e5d43970a9ffce83
+Description: Linux kernel headers for 4.4.154-10-g209c242-dirty on arm64
+ This package provides kernel header files for 4.4.154-10-g209c242-dirty on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-11-gaad28c8-dirty
+Source: linux-4.4.154-11-gaad28c8-dirty
+Version: 4.4.154-11
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 46675
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-11-gaad28c8-dirty/linux-headers-4.4.154-11-gaad28c8-dirty_4.4.154-11_all.deb
+Size: 7110700
+SHA256: fbfc0f10416c20c99d4c055cc9785c8a93acca71867b2d3547f675f3ca48508c
+SHA1: 63d37ed88f2e90f542c130e83623316269431918
+MD5sum: 10c8e29b311b2d62530d022285063517
+Description: Linux kernel headers for 4.4.154-11-gaad28c8-dirty on all
+ This package provides kernel header files for 4.4.154-11-gaad28c8-dirty on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70505
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-headers-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 10119840
+SHA256: 42cc8e57688292815d68512b6a221bd833fb2310355348d184fadbf117577a33
+SHA1: 7cea6e8c03e1bd413c4e74a196f6cf3bc426c38c
+MD5sum: 76f3de71408f3716cfa153b6057b944e
+Description: Linux kernel headers for 4.4.154-59-rockchip-g5e70f14 on all
+ This package provides kernel header files for 4.4.154-59-rockchip-g5e70f14 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-ge0ce80a-dirty
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 46646
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-headers-4.4.154-ge0ce80a-dirty_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 7101032
+SHA256: 433005dc9af33b29c3d68ff740f6fa3b8a7ae644c559083f49b71c98065bf658
+SHA1: 2a8b5df580c152f5a2c333c5273290731d2cae4d
+MD5sum: 48ec67466c15a66573e04b5f8d7d5778
+Description: Linux kernel headers for 4.4.154-ge0ce80a-dirty on arm64
+ This package provides kernel header files for 4.4.154-ge0ce80a-dirty on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-10-g209c242-dirty
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 31631
+Suggests: linux-firmware-image-4.4.154-10-g209c242-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-10-g209c242-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-image-4.4.154-10-g209c242-dirty_4.4.154-10_all.deb
+Size: 7001868
+SHA256: 3a2ceb494d6c14b480c175b1f9cfc33ea144fd42ee8ed72de015dae59f86b479
+SHA1: 46c0552c7e7ede63c5b2aaf25f2b730b49a07aab
+MD5sum: e6818642614f6b57f767ac96a9063e77
+Description: Linux kernel, version 4.4.154-10-g209c242-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-10-g209c242-dirty.
+
+Package: linux-image-4.4.154-10-g209c242-dirty-dbg
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 230339
+Provides: linux-debug, linux-debug-4.4.154-10-g209c242-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-image-4.4.154-10-g209c242-dirty-dbg_4.4.154-10_all.deb
+Size: 53507292
+SHA256: 901decf05f22c1407b63385060f9b5c224fae41ef4601cbef83c0a62e8b91367
+SHA1: e19c06eb06c6d0ad6289231b15893a71f5b02894
+MD5sum: dad006ca6873943b9f8b55376ca56e59
+Description: Linux kernel debugging symbols for 4.4.154-10-g209c242-dirty
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-4.4.154-11-gaad28c8-dirty
+Source: linux-4.4.154-11-gaad28c8-dirty
+Version: 4.4.154-11
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 31633
+Suggests: linux-firmware-image-4.4.154-11-gaad28c8-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-11-gaad28c8-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-11-gaad28c8-dirty/linux-image-4.4.154-11-gaad28c8-dirty_4.4.154-11_all.deb
+Size: 7019674
+SHA256: a8de1f83c485f4b1305b87e9f4250c629c206c00b4a880cbe774349bd80d25f2
+SHA1: b507cd6c9a045726c5a72bd018f0a41e931bbc9e
+MD5sum: 0512367c21b8460bbf06370031eaf11d
+Description: Linux kernel, version 4.4.154-11-gaad28c8-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-11-gaad28c8-dirty.
+
+Package: linux-image-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 68977
+Suggests: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-59-rockchip-g5e70f14
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-image-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 13313628
+SHA256: 6f1c09a3eef314f2c06577aeb27c4bedcc26f6c1106f1649a4fb8d89f25cc221
+SHA1: 86bf7854a68f1a585ec3f36a6b3a3cd9fe607502
+MD5sum: d149c714b0c8416721337dfaad91d2b7
+Description: Linux kernel, version 4.4.154-59-rockchip-g5e70f14
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-59-rockchip-g5e70f14.
+
+Package: linux-image-4.4.154-ge0ce80a-dirty
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 20573
+Suggests: linux-firmware-image-4.4.154-ge0ce80a-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-ge0ce80a-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-image-4.4.154-ge0ce80a-dirty_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 7006556
+SHA256: bf7c7355307776422833b38b4a61098bb9fa1fca60fc33f4b3b2584ccac23cf7
+SHA1: 43e9a732a5a0a18d1f6c8225906f959ab1048ec5
+MD5sum: ed24d62171e5f1b1c3ccf87d79973859
+Description: Linux kernel, version 4.4.154-ge0ce80a-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-ge0ce80a-dirty.
+
+Package: linux-image-4.4.154-ge0ce80a-dirty-dbg
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 230421
+Provides: linux-debug, linux-debug-4.4.154-ge0ce80a-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-image-4.4.154-ge0ce80a-dirty-dbg_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 53521028
+SHA256: a83d01a65e1eba417ae561d2425a570f5c0166695d51d4d694f06789e1fc7d7c
+SHA1: 4dc7a69ababdc3a276561471be24c9b1de764a50
+MD5sum: 249a981e21f5c4864d87bdc6a6a993d9
+Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 4129
+Provides: linux-kernel-headers
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-libc-dev_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 812284
+SHA256: 66e77378fe4cacdfb39ddf6bb271d49e55fef4712ed2f5f020a9de664ba861f6
+SHA1: 18e2cc0156fdaa467faab822b89a0d41eb8b706e
+MD5sum: df5fc31f9d5b661ce71eee714d85aa3a
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: rock960ab-rk-ubootimg
+Version: 2017.09-02088-ga198532
+Architecture: all
+Maintainer: Vamrs <dev@vamrs.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-02088-ga198532_all.deb
+Size: 290704
+SHA256: 6b1f1e6882f69f3a96946e5a1b433d53d9faa68b54a42a5688b7096fe8e47f76
+SHA1: 79e0a0191ce6a565313d6b94f83194cd36677abd
+MD5sum: 111bf6cf6cfb49c003dd0f2f07ec679b
+Description: rock960ab u-boot package
+Multi-Arch: foreign
+Replaces: rock960ab-rk-ubootimg
+Conflicts: rock960ab-rk-ubootimg
+Provides: rock960ab-rk-ubootimg
+
+Package: rockchip-fstab
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-fstab/rockchip-fstab_0.1_all.deb
+Size: 1036
+SHA256: 094915569317798044291d0824d777ab15b76ff5f23a6cf9f2d7ebc436ab1483
+SHA1: e67fb4789ced8ae0e8f93fde5523921d472274ad
+MD5sum: 33a9fd6da925a5955af5a59cfbfa4426
+Description: Rockchip default fstab
+Depends: util-linux, bash
+
+Package: rockchip-overlay
+Version: 0.9
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.9_all.deb
+Size: 4852
+SHA256: 1e5fd559d2c44e7e55b849a04a2247b9f4730303aa0c63f68f2307d13b218961
+SHA1: 22d2e75de81055d3d960a7e49cfc1aa3b04d0f15
+MD5sum: 0092b5e9a8eb8e9ee9228b5ffb3597a6
+Description: General rockchip overlay package.
+
+Package: rockpi4b-rk-ubootimg
+Version: 2017.09-02085-g5a6aeld
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-02085-g5a6aeld_all.deb
+Size: 290792
+SHA256: 49d204b2d4a04411da0aea39ce98f5406c45ad26e80ad1c5165d19bb75c7524b
+SHA1: b16fc9b06f2e2331ef0d27cb792e5874b67396ed
+MD5sum: 8b30a3ce2dbac8849435bc2f3d43e764
+Description: rockpi4b u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4b-rk-ubootimg
+Conflicts: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
+
