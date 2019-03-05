@@ -154,43 +154,6 @@ Description: Linux kernel, version 4.4.154-72-rockchip-g6520deb
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-72-rockchip-g6520deb.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-59-rockchip-g5e70f14
-Version: 4.4.154-59-rockchip
-Architecture: all
-Maintainer: Anonymous <root@mrs-ella>
-Installed-Size: 4129
-Provides: linux-kernel-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-libc-dev_4.4.154-59-rockchip_all.deb
-Size: 816654
-SHA256: ba2b955710fa85d49ee4e2453eb16921fc2fd8968277f2c477dc72c3d9333834
-SHA1: 060093c18827ed45ce5f7954cac3d480afb6d4b0
-MD5sum: df35f56b251bd41f3942ea34a9fce8cd
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-
-Package: rock960ab-rk-ubootimg
-Version: 2017.09-02088-ga198532
-Architecture: all
-Maintainer: Vamrs <dev@vamrs.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-02088-ga198532_all.deb
-Size: 290704
-SHA256: 6b1f1e6882f69f3a96946e5a1b433d53d9faa68b54a42a5688b7096fe8e47f76
-SHA1: 79e0a0191ce6a565313d6b94f83194cd36677abd
-MD5sum: 111bf6cf6cfb49c003dd0f2f07ec679b
-Description: rock960ab u-boot package
-Multi-Arch: foreign
-Replaces: rock960ab-rk-ubootimg
-Conflicts: rock960ab-rk-ubootimg
-Provides: rock960ab-rk-ubootimg
-
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>

@@ -663,43 +663,6 @@ Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-ge0ce80a-dirty
-Version: 4.4.154-ge0ce80a-dirty-6
-Architecture: all
-Maintainer: Anonymous <root@mrs-hebe>
-Installed-Size: 4129
-Provides: linux-kernel-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-libc-dev_4.4.154-ge0ce80a-dirty-6_all.deb
-Size: 812284
-SHA256: 66e77378fe4cacdfb39ddf6bb271d49e55fef4712ed2f5f020a9de664ba861f6
-SHA1: 18e2cc0156fdaa467faab822b89a0d41eb8b706e
-MD5sum: df5fc31f9d5b661ce71eee714d85aa3a
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-
-Package: rock960ab-rk-ubootimg
-Version: 2017.09-02088-ga198532
-Architecture: all
-Maintainer: Vamrs <dev@vamrs.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-02088-ga198532_all.deb
-Size: 290704
-SHA256: 6b1f1e6882f69f3a96946e5a1b433d53d9faa68b54a42a5688b7096fe8e47f76
-SHA1: 79e0a0191ce6a565313d6b94f83194cd36677abd
-MD5sum: 111bf6cf6cfb49c003dd0f2f07ec679b
-Description: rock960ab u-boot package
-Multi-Arch: foreign
-Replaces: rock960ab-rk-ubootimg
-Conflicts: rock960ab-rk-ubootimg
-Provides: rock960ab-rk-ubootimg
-
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -765,22 +728,4 @@ SHA256: fcf831f8ca4109189f2a3afe32d470f21e2a1199c4f1100ba68c7b56c150fcdf
 SHA1: 111fc7e94a16ae932e8af3ce94dc9d68d255b2c5
 MD5sum: 6b5fba2ea77c6127884b49d6f3514aec
 Description: General rockchip overlay package.
-
-Package: rockpi4b-rk-ubootimg
-Version: 2017.09-02085-g5a6aeld
-Architecture: all
-Maintainer: Radxa <dev@radxa.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-02085-g5a6aeld_all.deb
-Size: 290792
-SHA256: 49d204b2d4a04411da0aea39ce98f5406c45ad26e80ad1c5165d19bb75c7524b
-SHA1: b16fc9b06f2e2331ef0d27cb792e5874b67396ed
-MD5sum: 8b30a3ce2dbac8849435bc2f3d43e764
-Description: rockpi4b u-boot package
-Multi-Arch: foreign
-Replaces: rockpi4b-rk-ubootimg
-Conflicts: rockpi4b-rk-ubootimg
-Provides: rockpi4b-rk-ubootimg
 

@@ -317,25 +317,6 @@ Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-ge0ce80a-dirty
-Version: 4.4.154-ge0ce80a-dirty-6
-Architecture: arm64
-Maintainer: Anonymous <root@mrs-hebe>
-Installed-Size: 4129
-Provides: linux-kernel-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-libc-dev_4.4.154-ge0ce80a-dirty-6_arm64.deb
-Size: 817616
-SHA256: 2d676445adfd3c4e162390093179ad567e155720611b35d4aec8cc3e2a550ef2
-SHA1: 9c88af87f3e51ee14437828e345a2a7443bc5139
-MD5sum: 9e30ef4df1c2cd9a48a93c340417cd9a
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-
 Package: mpv
 Version: 1.3
 Architecture: arm64
@@ -363,24 +344,6 @@ SHA256: 2294447669ce4490c9f501396f1199d962d3b774d61dd9f061ba64033f6a23ad
 SHA1: 11eec2df120bb83ccc343b194ed19195740b50d7
 MD5sum: 8ce9de5dc45b91c28e08919a9385ade0
 Description: The OpenCV library.
-
-Package: rock960ab-rk-ubootimg
-Version: 2017.09-02088-ga198532
-Architecture: all
-Maintainer: Vamrs <dev@vamrs.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-02088-ga198532_all.deb
-Size: 290704
-SHA256: 6b1f1e6882f69f3a96946e5a1b433d53d9faa68b54a42a5688b7096fe8e47f76
-SHA1: 79e0a0191ce6a565313d6b94f83194cd36677abd
-MD5sum: 111bf6cf6cfb49c003dd0f2f07ec679b
-Description: rock960ab u-boot package
-Multi-Arch: foreign
-Replaces: rock960ab-rk-ubootimg
-Conflicts: rock960ab-rk-ubootimg
-Provides: rock960ab-rk-ubootimg
 
 Package: rockchip-fstab
 Version: 0.1
@@ -450,22 +413,4 @@ SHA256: fcf831f8ca4109189f2a3afe32d470f21e2a1199c4f1100ba68c7b56c150fcdf
 SHA1: 111fc7e94a16ae932e8af3ce94dc9d68d255b2c5
 MD5sum: 6b5fba2ea77c6127884b49d6f3514aec
 Description: General rockchip overlay package.
-
-Package: rockpi4b-rk-ubootimg
-Version: 2017.09-02085-g5a6aeld
-Architecture: arm64
-Maintainer: Radxa <dev@radxa.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-02085-g5a6aeld_arm64.deb
-Size: 290796
-SHA256: 468ef42a962415dc5a8205d7532562b9f51bbf6ea78235fc3a51d1038d83c023
-SHA1: 907aa245fbc47534a42731a8149f1513dd2d20ed
-MD5sum: 76bc8e270b9ef5bdc5114c681ce8493b
-Description: rockpi4b u-boot package
-Multi-Arch: foreign
-Replaces: rockpi4b-rk-ubootimg
-Conflicts: rockpi4b-rk-ubootimg
-Provides: rockpi4b-rk-ubootimg
 
