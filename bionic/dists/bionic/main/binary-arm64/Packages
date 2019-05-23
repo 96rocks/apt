@@ -85,19 +85,19 @@ SHA1: fc08e049ac5f384617a9bb8600ef6a73deff71d8
 MD5sum: 40c95b93bfab6cc8148a98a906012488
 Description: Media Process Platform
 
-Package: linux-4.4-lastest
-Version: 4.4.154-73
+Package: linux-4.4-latest
+Version: 4.4.154-83
 Architecture: all
 Component: main
-Depends: linux-image-4.4.154-73-rockchip-00007-g155a65a, linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a, linux-headers-4.4.154-73-rockchip-00007-g155a65a
+Depends: linux-image-4.4.154-83-rockchip-00023-gae7a309, linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309, linux-headers-4.4.154-83-rockchip-00023-gae7a309
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-73_all.deb
-Size: 808
-SHA256: 074bec539d2f47048984b973a2b9ce4547639c1ef50dee0ea732cd5fa5bb77d2
-SHA1: 8b5db57d5d6465da770968bef1c478dd3c16400c
-MD5sum: 9a36c3e4c21addcfcad401ce8b6b6e19
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-83_all.deb
+Size: 804
+SHA256: 81f00f58ed85b2a7681aa91000c57646de486ab6a8e24612ee549217d8b56306
+SHA1: 969c3bfb796c719135c6551008aeef92964391c0
+MD5sum: 63ce60bb69dfe9c291481238df6699ae
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
@@ -152,6 +152,23 @@ SHA1: 83fc19187678486eed16487033a66d09a562821b
 MD5sum: bd6456a493bbb6f6716f83646d918de3
 Description: Linux kernel firmware, version 4.4.154-73-rockchip-00007-g155a65a
  This package contains firmware from the Linux kernel, version 4.4.154-73-rockchip-00007-g155a65a.
+
+Package: linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 186766
+SHA256: b6370788e3071c42efa8ee8e56e45901bc8653bb44cb86743ae47c93abdfd615
+SHA1: ce2a7b796b82783666d308ca8119951c84c1cf95
+MD5sum: 89799bda42f3bd87327d9d102c81fde5
+Description: Linux kernel firmware, version 4.4.154-83-rockchip-00023-gae7a309
+ This package contains firmware from the Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309.
 
 Package: linux-headers-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
@@ -230,6 +247,26 @@ SHA1: 0ca6999959a91037199a37504e01b9f3038f3e1c
 MD5sum: 06d2ed6a8853bbfe09ef1e585f13512d
 Description: Linux kernel headers for 4.4.154-73-rockchip-00007-g155a65a on all
  This package provides kernel header files for 4.4.154-73-rockchip-00007-g155a65a on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-headers-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 10140002
+SHA256: 5839bfb9fe7c9876ebeac73bcd3656e90404d708d88b175fbecdba61672e8fc9
+SHA1: 11623b24c6dd13abab910c0cfbefcac2899b691b
+MD5sum: e2ab77a5d20bc251734d1b57980421fe
+Description: Linux kernel headers for 4.4.154-83-rockchip-00023-gae7a309 on all
+ This package provides kernel header files for 4.4.154-83-rockchip-00023-gae7a309 on all
  .
  This is useful for people who need to build external modules
 
@@ -352,6 +389,26 @@ Description: Linux kernel, version 4.4.154-73-rockchip-00007-g155a65a
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-73-rockchip-00007-g155a65a.
 
+Package: linux-image-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72467
+Suggests: linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-83-rockchip-00023-gae7a309
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-image-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 13890758
+SHA256: 89b6df181ab96270b135786401a36fb5fe10ef1587f841b29b4a5e0b68e701f6
+SHA1: 4e0fa6eaf1d96841e1cb1be7b345ff9817c01b00
+MD5sum: 8a87aaa5b7c8e821a9410c091d24aff4
+Description: Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-83-rockchip-00023-gae7a309.
+
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
 Version: 4.4.154-ge0ce80a-dirty-6
@@ -392,8 +449,8 @@ Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
-Source: linux-4.4.154-73-rockchip-00007-g155a65a
-Version: 4.4.154-73-rockchip
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
 Architecture: all
 Maintainer: Anonymous <root@mrs-ella>
 Installed-Size: 4129
@@ -401,11 +458,11 @@ Provides: linux-kernel-headers
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-4.4.154-73-rockchip-00007-g155a65a/linux-libc-dev_4.4.154-73-rockchip_all.deb
-Size: 816748
-SHA256: e2a451056d1a87b7b1b99143a94e3f0090939c623c6c5128beb039606c9a56b2
-SHA1: 9c9b3a1ce3f078c06fc979fa4d988ff6ee282bf9
-MD5sum: 4a2dd55e2dc84113daba7a181fe335e3
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-libc-dev_4.4.154-83-rockchip_all.deb
+Size: 816782
+SHA256: bb063871efbea738544d1ce959aefe3b8cf8c6f3bc24e52556f5d8db99d67a62
+SHA1: 8e00df6423577c30e8591375ad937107e4f22f72
+MD5sum: 068f45943a4f47e56294e92920224a5a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
@@ -438,68 +495,68 @@ SHA1: 11eec2df120bb83ccc343b194ed19195740b50d7
 MD5sum: 8ce9de5dc45b91c28e08919a9385ade0
 Description: The OpenCV library.
 
-Package: rock960ab-rk-u-boot-lastest
-Version: 2017.09-00008-g61d3d3f
+Package: rock960ab-rk-u-boot-latest
+Version: 2017.09-00009-g7dd96d2
 Architecture: all
 Component: main
-Depends: rock960ab-rk-ubootimg(= 2017.09-00008-g61d3d3f)
-Maintainer: Radxa <dev@radxa.com>
+Depends: rock960ab-rk-ubootimg(= 2017.09-00009-g7dd96d2)
+Maintainer: Vamrs <dev@vamrs.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
+Filename: pool/main/r/rock960ab-rk-u-boot-latest/rock960ab-rk-u-boot-latest_2017.09-00009-g7dd96d2_all.deb
 Size: 772
-SHA256: 9a2317287e27af6f0bce88ce2d669cacaaddd886f154298f34eb752e418bdc61
-SHA1: 3e3ee45ac49648f7573686344500f5d1f903305e
-MD5sum: 65a95cc2a65d7b738f987a99993c8431
-Description: rock960ab u-boot lastest version package
+SHA256: ab0cab57a73a795812b097cd50bab92b9e9d274c8a47eea95da207df0f36e44e
+SHA1: b19d72289c474b19a94c4a4aba01e1d559eb4666
+MD5sum: 8fc75ce8fe1854482ecae77067af063c
+Description: rock960ab u-boot latest version package
  This package will always depend on rock960ab-rk-ubootimg.
 
 Package: rock960ab-rk-ubootimg
-Version: 2017.09-00008-g61d3d3f
+Version: 2017.09-00009-g7dd96d2
 Architecture: all
 Maintainer: Vamrs <dev@vamrs.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00008-g61d3d3f_all.deb
-Size: 817772
-SHA256: 5a9b616a6706fc7fb2c65c125a1731f25294beee2be67573e895784baac56c5e
-SHA1: f12f8024978e17966bcbe19167c5303b67e1b2fc
-MD5sum: 3dc6abd887b7c26457280b2baea647d5
+Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00009-g7dd96d2_all.deb
+Size: 817380
+SHA256: 1ed64aebe2e160efc5db3b615e999cff10ae440b87b12e08dfcee9536e7a1f62
+SHA1: 932044e718328fc202fd01f81a962bf3cc88c6d5
+MD5sum: 0a76b09a39de7216ce31ba23bb3a9c1f
 Description: rock960ab u-boot package
 Multi-Arch: foreign
 Replaces: rock960ab-rk-ubootimg
 Conflicts: rock960ab-rk-ubootimg
 Provides: rock960ab-rk-ubootimg
 
-Package: rock960c-rk-u-boot-lastest
-Version: 2017.09-00008-g61d3d3f
+Package: rock960c-rk-u-boot-latest
+Version: 2017.09-00009-g7dd96d2
 Architecture: all
 Component: main
-Depends: rock960c-rk-ubootimg(= 2017.09-00008-g61d3d3f)
-Maintainer: Radxa <dev@radxa.com>
+Depends: rock960c-rk-ubootimg(= 2017.09-00009-g7dd96d2)
+Maintainer: Vamrs <dev@vamrs.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
+Filename: pool/main/r/rock960c-rk-u-boot-latest/rock960c-rk-u-boot-latest_2017.09-00009-g7dd96d2_all.deb
 Size: 772
-SHA256: 52c4fab2d540aa89f26a30c5720e5e15ac92820917696dda65b30467110556c2
-SHA1: f1a5b076ddc810d18f081f775d0d6cf0511db808
-MD5sum: bf0305ff625d8f76c6e50bd7718a13fa
-Description: rock960c u-boot lastest version package
+SHA256: 3252f19f0841bd9a86a6f9118928a1393a6bfe85f3b028474004202278912c81
+SHA1: b195ff8b8f6e09d470adba9fa7af724a07d02fb6
+MD5sum: a05524c9e5feb89757335dc8bdd4f760
+Description: rock960c u-boot latest version package
  This package will always depend on rock960c-rk-ubootimg.
 
 Package: rock960c-rk-ubootimg
-Version: 2017.09-00008-g61d3d3f
+Version: 2017.09-00009-g7dd96d2
 Architecture: all
 Maintainer: Vamrs <dev@vamrs.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00008-g61d3d3f_all.deb
-Size: 817592
-SHA256: 09f6c5e7b2d7f424bc6792e69d9e0f32e54be6b8f6b0913bc88a9685a75910e3
-SHA1: 03123d47ce35fcd4b2076fa537b8cc230dc3d4e3
-MD5sum: bec7bfcf45811e05f06861e9d4c3fada
+Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00009-g7dd96d2_all.deb
+Size: 817264
+SHA256: 4a6e38a0deefbd75eb47274d0521a626116c9be08e1432941bd56e08c665c481
+SHA1: db3799379fd2871f0fd6daf71756586ddbdf46e8
+MD5sum: eaa486154fc0357054b37a9eedd462d6
 Description: rock960c u-boot package
 Multi-Arch: foreign
 Replaces: rock960c-rk-ubootimg
