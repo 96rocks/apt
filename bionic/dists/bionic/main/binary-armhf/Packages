@@ -26,6 +26,20 @@ SHA1: c922156b40a4df71455d7bb2685a0d688cf7b73c
 MD5sum: bf6660eea623a5505463b640f9ee5fdc
 Description: General chip ap6256 firmware.
 
+Package: ap6356-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/ap6356-firmware/ap6356-firmware_0.1_all.deb
+Size: 346260
+SHA256: 82bf84455bd0d72a7453808a1f1a8d603481a2eb7286fe0ab21ed5c99579c08b
+SHA1: bc52c285256f185b9cef320077106901380d6cad
+MD5sum: a9f8552aa3bc3087935d8fb2efc93b05
+Description: General chip ap6356 firmware.
+
 Package: brcm-patchram-plus1-32
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
