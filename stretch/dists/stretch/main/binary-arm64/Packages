@@ -550,18 +550,18 @@ MD5sum: 8ce9de5dc45b91c28e08919a9385ade0
 Description: The OpenCV library.
 
 Package: rock960ab-rk-u-boot-latest
-Version: 2017.09-00009-g7dd96d2
+Version: 2017.09-00011-g0568348
 Architecture: all
 Component: main
-Depends: rock960ab-rk-ubootimg(= 2017.09-00009-g7dd96d2)
+Depends: rock960ab-rk-ubootimg(= 2017.09-00011-g0568348)
 Maintainer: Vamrs <dev@vamrs.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-u-boot-latest/rock960ab-rk-u-boot-latest_2017.09-00009-g7dd96d2_all.deb
+Filename: pool/main/r/rock960ab-rk-u-boot-latest/rock960ab-rk-u-boot-latest_2017.09-00011-g0568348_all.deb
 Size: 772
-SHA256: ab0cab57a73a795812b097cd50bab92b9e9d274c8a47eea95da207df0f36e44e
-SHA1: b19d72289c474b19a94c4a4aba01e1d559eb4666
-MD5sum: 8fc75ce8fe1854482ecae77067af063c
+SHA256: a59a05c57228b7e5b86a986ba095479dc483023e4431c506a23331f124918062
+SHA1: c0bc12d2b0eef5d06caa144be97049cb99f9db97
+MD5sum: c61df4089c216a9a1a4f98f423f8f332
 Description: rock960ab u-boot latest version package
  This package will always depend on rock960ab-rk-ubootimg.
 
@@ -584,18 +584,18 @@ Conflicts: rock960ab-rk-ubootimg
 Provides: rock960ab-rk-ubootimg
 
 Package: rock960c-rk-u-boot-latest
-Version: 2017.09-00009-g7dd96d2
+Version: 2017.09-00011-g0568348
 Architecture: all
 Component: main
-Depends: rock960c-rk-ubootimg(= 2017.09-00009-g7dd96d2)
+Depends: rock960c-rk-ubootimg(= 2017.09-00011-g0568348)
 Maintainer: Vamrs <dev@vamrs.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-u-boot-latest/rock960c-rk-u-boot-latest_2017.09-00009-g7dd96d2_all.deb
+Filename: pool/main/r/rock960c-rk-u-boot-latest/rock960c-rk-u-boot-latest_2017.09-00011-g0568348_all.deb
 Size: 772
-SHA256: 3252f19f0841bd9a86a6f9118928a1393a6bfe85f3b028474004202278912c81
-SHA1: b195ff8b8f6e09d470adba9fa7af724a07d02fb6
-MD5sum: a05524c9e5feb89757335dc8bdd4f760
+SHA256: edb0d74aa65b41cc62ae63c072334def8b8299792ab7fec8b98c0893ae8d3f7b
+SHA1: 8caec62562f73b06cafff5a09eb266db10b600d9
+MD5sum: e7e8a773a0b90569dfd61f922c7c01cc
 Description: rock960c u-boot latest version package
  This package will always depend on rock960c-rk-ubootimg.
 
