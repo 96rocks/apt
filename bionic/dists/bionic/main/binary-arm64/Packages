@@ -509,6 +509,40 @@ SHA1: 11eec2df120bb83ccc343b194ed19195740b50d7
 MD5sum: 8ce9de5dc45b91c28e08919a9385ade0
 Description: The OpenCV library.
 
+Package: rev3328-rk-u-boot-latest
+Version: 2017.09-02676-g4490220
+Architecture: all
+Component: main
+Depends: rev3328-rk-ubootimg(= 2017.09-02676-g4490220)
+Maintainer: Vamrs <dev@vamrs.com>
+Priority: optional
+Section: admin
+Filename: pool/main/r/rev3328-rk-u-boot-latest/rev3328-rk-u-boot-latest_2017.09-02676-g4490220_all.deb
+Size: 772
+SHA256: 56bf00629ddd764a5051981a0599db96e9601a923d897b9f9159e9ebb8a2be48
+SHA1: 98ffa97f6fc24b528c0aca66bea2eeedfa949288
+MD5sum: 9b7ce1d24a514ed00109313e97d4ba5c
+Description: rev3328 u-boot latest version package
+ This package will always depend on rev3328-rk-ubootimg.
+
+Package: rev3328-rk-ubootimg
+Version: 2017.09-2676-g4490220
+Architecture: all
+Maintainer: Vamrs <dev@vamrs.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rev3328-rk-ubootimg/rev3328-rk-ubootimg_2017.09-2676-g4490220_all.deb
+Size: 445508
+SHA256: 5b96d559b5ca74e4264552985ae586b9469d8ed891c4b66cb012a52e15e3ac6a
+SHA1: a43084b0c528d5778926760017fe2bcdc846d101
+MD5sum: 6bbb5aae3aa31c24b0f5aa2b3ed95308
+Description: rev3328 u-boot package
+Multi-Arch: foreign
+Replaces: rev3328-rk-ubootimg
+Conflicts: rev3328-rk-ubootimg
+Provides: rev3328-rk-ubootimg
+
 Package: rock960ab-rk-u-boot-latest
 Version: 2017.09-00011-g0568348
 Architecture: all
@@ -628,17 +662,17 @@ MD5sum: 18eea149c7d2081f6e140dfd76178866
 Description: The ARM Mali library for Rockchip serial.
 
 Package: rockchip-overlay
-Version: 1.4
+Version: 1.8
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.4_all.deb
-Size: 4672
-SHA256: 212f85a502b9e0900f5da41d6c3346ed4944b9a805badb7259b0ceec58e8a3a4
-SHA1: 40dd8433448e2a021bf453240d0ad8beb81ad9f5
-MD5sum: 7a051faca4be51761a6d58b66c063b88
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.8_all.deb
+Size: 4700
+SHA256: 4cb87c943e91fa31f60a3dba7b222d67cb9219323c6f554e86c1dfe7cf1c6c3b
+SHA1: 67d1059757934fe825ba069b389ab0659d5b6e52
+MD5sum: bd5e78a0da151a12514d94ac7d5a0834
 Description: General rockchip overlay package.
 
