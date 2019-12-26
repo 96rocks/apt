@@ -1,0 +1,17 @@
+Package: brcm-patchram-plus1
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Replaces: brcm-patchram-plus1-32
+Conflicts: brcm-patchram-plus1-32
+Provides: brcm-patchram-plus1-32
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_armhf.deb
+Size: 7240
+SHA256: fe98a9cdb99ce459174ebb6fb437349188bc2c0096714316107d37265c3bba15
+SHA1: 4dfa7f8815ced44be91514ea5a68c331b43347cb
+MD5sum: 1ba72f44f1f6c506c193b3246e8f6bca
+Description: Broadcom bluetooth patching tool
+

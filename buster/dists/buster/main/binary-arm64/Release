@@ -1,0 +1,5 @@
+Component: main
+Origin: apt.96rocks.com
+Label: apt.96rocks.com
+Architecture: arm64
+Description: Apt repository for Vamrs products

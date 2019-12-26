@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt.96rocks.com
+Label: apt.96rocks.com
+Codename: buster
+Date: Thu, 26 Dec 2019 06:58:25 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Vamrs products
+MD5Sum:
+ de8b956174a247738382bf7cc0e74fc4 541 main/binary-armhf/Packages
+ a057b248409e430a409508edaf92d16a 357 main/binary-armhf/Packages.gz
+ 7e2200eec69c6a0894c114b63460bc4e 130 main/binary-armhf/Release
+ bc8d41ea14b10e1988a6652f1f97194a 541 main/binary-arm64/Packages
+ 8dfb42bcf1be8bd8b0958aa028ee10de 353 main/binary-arm64/Packages.gz
+ 2d5cd4e181b5ae7c9beb7fac6ef164a6 130 main/binary-arm64/Release
+SHA1:
+ d1dcd285995872d3359059ed2a9b58c86fb53166 541 main/binary-armhf/Packages
+ 6a44fa2472e594f0bb96fdb0338d55e99ad51dbc 357 main/binary-armhf/Packages.gz
+ 8cfd6d606a017d7a3c4f68dd9c08a1aa630b2bac 130 main/binary-armhf/Release
+ 353097bd276e2d2b51bd6aec65f7d136e3bd895d 541 main/binary-arm64/Packages
+ a49e0b4e347128ce4414b9d1a6c89e8a80b1d7a2 353 main/binary-arm64/Packages.gz
+ 6181edc66a24af1bb2f9c563afa1b11b8ff07f6e 130 main/binary-arm64/Release
+SHA256:
+ ebe900251ddf14ceb898ad54b7b3021dcca5d04fda1d8901183f7b61500a322f 541 main/binary-armhf/Packages
+ 758f148ce615602477aac3c40e4c3575a8500a9f1430d600d4058ed605f79120 357 main/binary-armhf/Packages.gz
+ 3a2c9a9f30c3d31504dfea774c3c5e4521136614338a18254166f8e3d6d16b81 130 main/binary-armhf/Release
+ 7061f6f75183886702c8a4c97e7fade3b9aa862b1cd74ef4adb1dbd154f44a7f 541 main/binary-arm64/Packages
+ f0e8bdf9326d7b4787928d956981a7549252c9e7fb08a8df1425eb640ded142e 353 main/binary-arm64/Packages.gz
+ 87918c3936226b8f4ca3db162c72a51f644edb1c29a13843adafc6d69d84e337 130 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAl4EWhEACgkQV2EoiytS
+zJCI5Av/d2hz3P8TXujQwGiIhL+hB0EhLqFsoaQJiyG4W0KDoH+Lit/LiY63UT1+
+Rj8KDh6b89hoZlKeHcrYAzuoCpK60AAe0Mbbw9dvJmK/G/71IllmSox4gCvCSaot
+qCL71MbxQbgcf2yr1fZgu4PTQAYyJsKtXNyfDWYIE8bjmAt1dbcSv5hW0wQTYJTB
+a4442znNz/ebR1D1jald55VtnfuiDusj8wcuzvKDFWs8i62VqUNN0mjgic0JxNs0
+QjWJ6ZYLcsJ9thyOg3YLDvwRkHZGC02Rtqh0RFlNFSM/kNuISqyIc1/IAm/00B1V
+fHDuFakbnnuZogmLzYC0u6lp6UnZ2HhdG/RKXZ8PfVOofYBMFKl4Lvwu8OwGMS6M
+n9d7yzsIeSk1gaV523Pat+mE8i4C5NydTc3A09XCYeR5aXT1xR/cumSF7PjTzhU6
+d4k2sInK/VlW/cDGpAZC06BdCwhENH8AApeHrgEl4Fk+hiq1KffP9Sc7p3HrhuM/
+cArAxVbf
+=w9el
+-----END PGP SIGNATURE-----
