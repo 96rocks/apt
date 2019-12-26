@@ -1,0 +1,7 @@
+Origin: apt.96rocks.com
+Label: apt.96rocks.com
+Codename: buster
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Vamrs products
+SignWith: yes
